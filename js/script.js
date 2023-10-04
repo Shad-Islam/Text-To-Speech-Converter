@@ -1,12 +1,11 @@
+let text;
+let speech = new SpeechSynthesisUtterance();
 const button = document.querySelector("button");
 const input = document.querySelector("textarea");
-let text;
 
 button.addEventListener("click", () => {
-  text = input;
-  console.log(text);
+  speech.text = input.value;
+  window.speechSynthesis.speak(speech);
 });
 
-// button.addEventListener("click", () => {
-//   console.log("Shad");
-// });
+
