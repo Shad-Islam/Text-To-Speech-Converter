@@ -20,3 +20,9 @@
     color: aliceblue;
     letter-spacing: 1px;
 }
+
+.container textarea{
+    width: 600px;
+    height: 250px;
+    border-radius: 5px;
+}
