@@ -34,7 +34,12 @@
     border-radius: 5px;
 }
 
-.container button {
+.container .row{
+    gap: 30px;
+    display: flex;
+}
+
+.container .row button {
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -47,7 +52,7 @@
     box-shadow: 5px 5px 5px 2px #00000045;
 }
 
-.container button:active {
+.container .row button:active {
     box-shadow: none;
 }
 
@@ -66,7 +71,7 @@
         max-width: 100%; 
     }
 
-    .container button {
+    .container .row button {
         font-size: 18px; 
     }
 }

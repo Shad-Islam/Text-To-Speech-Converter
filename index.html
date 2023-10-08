@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text To Speech Converter</title>
+    <!-- font awsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custome css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
       <h1>Text To Speech Converter</h1>
       <textarea placeholder="Write your text..." id="input-text"></textarea>
-      <button id="listen-btn">Listen</button>
+      <div class="row">
+        <select></select>
+        <button id="listen-btn">Listen</button>
+      </div>
     </div>
     <script src="./js/script.js"></script>
   </body>
