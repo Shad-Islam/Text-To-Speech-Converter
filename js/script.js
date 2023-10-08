@@ -7,5 +7,3 @@ button.addEventListener("click", () => {
   speech.text = input.value;
   window.speechSynthesis.speak(speech);
 });
-
-
