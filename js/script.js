@@ -1,4 +1,3 @@
-let text;
 let speech = new SpeechSynthesisUtterance();
 const button = document.querySelector("button");
 const input = document.querySelector("textarea");
