@@ -41,16 +41,16 @@ body {
 .container .row {
     gap: 30px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
 }
 
 .container .row select {
     border: 0;
     outline: 0;
+    padding: 10px;
     cursor: pointer;
     appearance: none;
     border-radius: 5px;
-    padding: 10px;
     background-size: 14px;
     background-color: #fff;
     transition: all linear 0.3s;
