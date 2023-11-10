@@ -17,7 +17,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background: rgba(68, 80, 105, 0.92);
+    /* background: rgba(68, 80, 105, 0.92); */
 }
 
 .container h1 {
